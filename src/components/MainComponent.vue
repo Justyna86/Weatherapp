@@ -7,7 +7,6 @@
   <div class="weatherDays">
     <SingleWeather v-for="single of weatherList" :values="single" />
   </div>
-
 </template>
 
 <script>
@@ -16,7 +15,7 @@ import SingleWeather from './SingleWeather.vue';
 export default {
   components: {
     CityDetails,
-    SingleWeather
+    SingleWeather,
   },
 
   // "domyślne" dane - te ładowane na początku
